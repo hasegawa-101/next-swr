@@ -1,0 +1,44 @@
+{
+  "name": "next-study",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "run-s next-lint prettier",
+    "next-lint": "next lint --dir src --fix",
+    "prettier": "prettier --write './src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "11.1.0",
+    "next-seo": "^4.26.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.7",
+    "what-input": "^5.2.10"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.0",
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.7.1",
+    "@types/postcss-import": "^12.0.1",
+    "@types/postcss-nested": "^4.2.3",
+    "@types/prettier": "^2.3.2",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "autoprefixer": "^10.3.2",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-tailwindcss": "^1.14.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "plugins": ["tailwindcss"],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    // "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  // "settings": {
+  //   "tailwindcss": {
+  //     "groupByResponsive": true
+  //   }
+  // },
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "react/jsx-no-target-blank": "off"
+  }
+}
